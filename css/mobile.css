@@ -1,0 +1,37 @@
+body{
+	background: #fff;
+}
+
+.container{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.hero img{
+	border-radius: 0;
+}
+
+aside.right, aside.left{
+	text-align: center;
+	float: inherit;
+}
+
+section.location{
+	text-align: center;
+}
+
+.map{
+	position: relative;
+	padding-bottom: 75%;
+	height: 0;
+	overflow:hidden;
+}
+
+.map iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100% !important;
+	height: 100% !important;
+}
